@@ -1,0 +1,9 @@
+.main-navbar {
+	@extend .navbar;
+	// background-color: $eerie-black;
+
+	.nav_link {
+		@extend .nav-link;
+		color: tomato;
+	}
+}
